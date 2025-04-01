@@ -754,10 +754,10 @@ MonoBehaviour:
       Data: 0.49$
     - Name: coin
       Entry: 3
-      Data: 1
+      Data: 10
     - Name: heart
       Entry: 3
-      Data: 1
+      Data: 10
     - Name: 
       Entry: 8
       Data: 
@@ -772,10 +772,10 @@ MonoBehaviour:
       Data: 0.99$
     - Name: coin
       Entry: 3
-      Data: 2
+      Data: 20
     - Name: heart
       Entry: 3
-      Data: 2
+      Data: 20
     - Name: 
       Entry: 8
       Data: 
@@ -790,10 +790,10 @@ MonoBehaviour:
       Data: 2.99$
     - Name: coin
       Entry: 3
-      Data: 6
+      Data: 60
     - Name: heart
       Entry: 3
-      Data: 6
+      Data: 60
     - Name: 
       Entry: 8
       Data: 
@@ -808,10 +808,10 @@ MonoBehaviour:
       Data: 4.99$
     - Name: coin
       Entry: 3
-      Data: 10
+      Data: 100
     - Name: heart
       Entry: 3
-      Data: 10
+      Data: 100
     - Name: 
       Entry: 8
       Data: 
@@ -826,10 +826,10 @@ MonoBehaviour:
       Data: 9.99$
     - Name: coin
       Entry: 3
-      Data: 20
+      Data: 200
     - Name: heart
       Entry: 3
-      Data: 20
+      Data: 200
     - Name: 
       Entry: 8
       Data: 
@@ -844,10 +844,10 @@ MonoBehaviour:
       Data: 19.99$
     - Name: coin
       Entry: 3
-      Data: 40
+      Data: 400
     - Name: heart
       Entry: 3
-      Data: 40
+      Data: 400
     - Name: 
       Entry: 8
       Data: 
@@ -870,6 +870,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3762103331940856158, guid: 167089c997274f140aaf81eda15261db, type: 3}
+      propertyPath: skins.Array.data[1].price
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3762103331940856158, guid: 167089c997274f140aaf81eda15261db, type: 3}
+      propertyPath: skins.Array.data[2].price
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3762103331940856158, guid: 167089c997274f140aaf81eda15261db, type: 3}
+      propertyPath: skins.Array.data[3].price
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 4454259174996044907, guid: 167089c997274f140aaf81eda15261db, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.389023
